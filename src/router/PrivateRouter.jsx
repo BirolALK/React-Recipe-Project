@@ -1,8 +1,13 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom';
 
 const PrivateRouter = () => {
+  const user = true;
+   
   return (
-    <div>PrivateRouter</div>
+    <div>
+      user ? <Outlet/>
+    </div>
   )
 }
 
