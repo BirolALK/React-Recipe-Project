@@ -6,7 +6,7 @@ import { Nav } from "./Navbar.style"
 
 const Navbar = () => {
   return (
-    <Nav justify="space-between" wrap="wrap">
+    <Nav Nav justify="space-between" wrap="wrap">
       <a href="">
         <i>{"<Clarusway/>"}</i>
         <span>Recipe</span>
