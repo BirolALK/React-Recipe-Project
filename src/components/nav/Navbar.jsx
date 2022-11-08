@@ -24,7 +24,7 @@ const Navbar = () => {
         <MenüLink to="/">Home</MenüLink>
         <MenüLink to="about">About</MenüLink>
         <MenüLink to="register">Register</MenüLink>
-        <MenüLink to="Logout">Logout</MenüLink>
+        <MenüLink to="Logout" onClick={() => sessionStorage.clear()}>Logout</MenüLink>
       </Menü>
     </Nav>
 
